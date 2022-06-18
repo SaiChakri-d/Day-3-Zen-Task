@@ -19,7 +19,7 @@ var obj=[
 }
 ]
 // creating a normal for loop to iterate the given data in the Json object var obj.
-/*for (var i=0;i<obj.length;i++) {
+for (var i=0;i<obj.length;i++) {
     // assigning the values in 'obj' variable to a variable named 'index'.
     let index = obj[i]; //in place of 'i' we can give index number of the array to print particular property details in the 'obj' object.
     // using template literal method to print the data in console.
@@ -29,7 +29,7 @@ var obj=[
     Company:${index.company}
     `
     );
-}*/
+}
 /* Output:
        Person:Arun
        Age:2
@@ -47,7 +47,7 @@ var obj=[
 // creating a  forEach loop to iterate the given data in the Json object var obj.
 // forEach method will call a function for each element in an array/object.
 // created an arrow function with variable named 'index' and created aforEach loop with condition of the 'index' function.
-/*obj.forEach((index)=>{
+obj.forEach((index)=>{
     console.log(`    
     Person:${index.person}
     Age:${index.age}
@@ -55,7 +55,7 @@ var obj=[
     `
     );
 
-})*/
+})
 /*Output 
     Person:Arun
     Age:2
@@ -71,7 +71,7 @@ var obj=[
     */
 
 // creating a for in loop which is an enumeration based loop which will iterate over the index.
-/*for(var index in obj){
+for(var index in obj){
     let key=obj[index]; // created a varaible named 'key' and passed the all values inside the 'obj' to 'key' variable.
     console.log(`    
     Person:${key.person}
@@ -80,7 +80,7 @@ var obj=[
     `
     );
 }
-*/
+
 /*Output 
     Person:Arun
     Age:2
